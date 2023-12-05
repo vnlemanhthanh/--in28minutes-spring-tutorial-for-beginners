@@ -5,21 +5,23 @@
 package com.vnlemanhthanh.spring.basics.springin5steps;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class BinarySearchImpl {
 
     @Autowired
+    @Qualifier("bubble")
     private SortAlgorithm sortAlgorithm;
 
-//    @Autowired
-//    public BinarySearchImpl(SortAlgorithm quickSortAlgorithm) {
-//        super();
-//        this.quickSortAlgorithm = quickSortAlgorithm;
+    //    @Autowired
+//    public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
+//        this.sortAlgorithm = sortAlgorithm;
 //    }
 
-//    @Autowired
+
+    //    @Autowired
 //    public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
 //        this.sortAlgorithm = sortAlgorithm;
 //    }
