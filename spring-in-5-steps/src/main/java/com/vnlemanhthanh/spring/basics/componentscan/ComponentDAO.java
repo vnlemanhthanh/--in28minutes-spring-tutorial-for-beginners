@@ -2,7 +2,7 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.spring.basics.springin5steps.scope;
+package com.vnlemanhthanh.spring.basics.componentscan;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,14 +11,14 @@ import org.springframework.stereotype.Component;
 //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class ComponentDAO {
     @Autowired
-    JdbcConnection jdbcConnection;
+    ComponentJdbcConnection jdbcConnection;
 
-    public JdbcConnection getJdbcConnection() {
+    public ComponentJdbcConnection getComponentJdbcConnection() {
         //System.out.println(this + " getJdbcConnection()");
         return jdbcConnection;
     }
 
-    public void setJdbcConnection(JdbcConnection jdbcConnection) {
+    public void setComponentJdbcConnection(ComponentJdbcConnection jdbcConnection) {
         this.jdbcConnection = jdbcConnection;
     }
 }

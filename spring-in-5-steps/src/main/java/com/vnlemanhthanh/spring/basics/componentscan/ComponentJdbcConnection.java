@@ -2,7 +2,7 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.spring.basics.springin5steps.scope;
+package com.vnlemanhthanh.spring.basics.componentscan;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
