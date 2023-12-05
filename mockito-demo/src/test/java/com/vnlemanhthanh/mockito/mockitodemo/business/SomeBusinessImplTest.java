@@ -13,11 +13,19 @@ class SomeBusinessImplTest {
 
     @Test
     void findTheGreatestFromAllData() {
-        DataServiceStub1 dataServiceStub = new DataServiceStub1();
+        DataService dataServiceStub = new DataServiceStub1();
         SomeBusinessImpl business = new SomeBusinessImpl(dataServiceStub);
         int result = business.findTheGreatestFromAllData();
         assertEquals(25, result);
-        assertNotEquals(1, result);
+        assertNotEquals(15, result);
+    }
+
+    @Test
+    void findTheGreatestFromAllDatawithOneValue() {
+        DataService dataServiceStub = new DataServiceStub2();
+        SomeBusinessImpl business = new SomeBusinessImpl(dataServiceStub);
+        int result = business.findTheGreatestFromAllData();
+        assertEquals(3, result);
     }
 }
 
@@ -33,6 +41,6 @@ class DataServiceStub2 implements DataService {
 
     @Override
     public int[] retrieveAllData() {
-        return new int[] {1,2,3};
+        return new int[] {3};
     }
 }
