@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-class SomeBusinessImplTest {
+class SomeBusinessImplStubTest {
 
     @Test
     void findTheGreatestFromAllData() {
@@ -33,7 +33,7 @@ class DataServiceStub1 implements DataService {
 
     @Override
     public int[] retrieveAllData() {
-        return new int[] {25,15,5};
+        return new int[]{25, 15, 5};
     }
 }
 
@@ -41,6 +41,6 @@ class DataServiceStub2 implements DataService {
 
     @Override
     public int[] retrieveAllData() {
-        return new int[] {3};
+        return new int[]{3};
     }
 }
