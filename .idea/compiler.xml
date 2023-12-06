@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mockito-demo" />
         <module name="spring-in-5-steps" />
+        <module name="learn-spring-boot" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="learn-spring-boot" options="-parameters" />
       <module name="mockito-demo" options="-parameters" />
       <module name="spring-in-5-steps" options="-parameters" />
     </option>

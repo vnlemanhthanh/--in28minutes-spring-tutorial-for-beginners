@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-in-5-steps/pom.xml" />
         <option value="$PROJECT_DIR$/mockito-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-spring-boot/pom.xml" />
       </list>
     </option>
   </component>
