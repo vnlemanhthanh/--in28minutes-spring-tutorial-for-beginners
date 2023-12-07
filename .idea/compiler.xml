@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mockito-demo" />
+        <module name="spring-aop" />
         <module name="spring-in-5-steps" />
         <module name="learn-spring-boot" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learn-spring-boot" options="-parameters" />
       <module name="mockito-demo" options="-parameters" />
+      <module name="spring-aop" options="-parameters" />
       <module name="spring-in-5-steps" options="-parameters" />
     </option>
   </component>
