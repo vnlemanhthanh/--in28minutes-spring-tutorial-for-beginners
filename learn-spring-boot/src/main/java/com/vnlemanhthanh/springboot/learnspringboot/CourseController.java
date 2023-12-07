@@ -13,11 +13,12 @@ import java.util.List;
 @RestController
 public class CourseController {
 
-    @RequestMapping({"/course", "/course.html"})
+    @RequestMapping({"/courses", "/courses.html"})
     public List<Course> retrieveAllCourse() {
         return Arrays.asList(
                 new Course(1, "Learn AWS", "vnlemanhthanh"),
-                new Course(2, "Learn DevOps", "vnlemanhthanh")
+                new Course(2, "Learn DevOps", "vnlemanhthanh"),
+                new Course(3, "Learn Azure", "vnlemanhthanh")
         );
     }
 }
