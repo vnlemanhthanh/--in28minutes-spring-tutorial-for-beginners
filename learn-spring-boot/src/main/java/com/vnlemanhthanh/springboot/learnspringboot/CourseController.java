@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class CourseController {
 
-    @RequestMapping({"/courses", "/courses.html"}) 
+    @RequestMapping({"/courses", "/courses.html"})
     public List<Course> retrieveAllCourse() {
         return Arrays.asList(
                 new Course(1, "Learn AWS", "vnlemanhthanh"),
