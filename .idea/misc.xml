@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -10,6 +11,7 @@
         <option value="$PROJECT_DIR$/mockito-demo/pom.xml" />
         <option value="$PROJECT_DIR$/learn-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/database-demo/pom.xml" />
       </list>
     </option>
   </component>
